@@ -1,0 +1,21 @@
+[
+  {
+    "name": "person",
+    "className": "pers.zhixilang.framework.ioc.entity.Person"
+  },
+  {
+    "name": "speak",
+    "className": "pers.zhixilang.framework.ioc.entity.Speak",
+    "constructorArgs": [
+      {
+        "index": 1,
+        "name": "name",
+        "value": "zhixilang"
+      }
+    ]
+  },
+  {
+    "name": "eat",
+    "className": "pers.zhixilang.framework.ioc.entity.Eat"
+  }
+]

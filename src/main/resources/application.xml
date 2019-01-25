@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean name="speak" class="pers.zhixilang.framework.ioc.entity.Speak">
+        <property name="name" value="zhixilang" />
+    </bean>
+
+    <bean name="eat" class="pers.zhixilang.framework.ioc.entity.Eat"></bean>
+
+    <bean name="person" class="pers.zhixilang.framework.ioc.entity.Person">
+        <property name="speak" ref="speak" />
+        <property name="eat" ref="eat" />
+    </bean>
+</beans>
