@@ -1,14 +1,14 @@
-package pers.zhixilang.framework.ioc.core.impl;
+package pers.zhixilang.lego.ioc.core.impl;
 
-import pers.zhixilang.framework.ioc.bean.BeanDefinition;
-import pers.zhixilang.framework.ioc.core.ApplitionContext;
-import pers.zhixilang.framework.ioc.utils.XmlUtils;
+import pers.zhixilang.lego.ioc.bean.BeanDefinition;
+import pers.zhixilang.lego.ioc.core.ApplitionContext;
+import pers.zhixilang.lego.ioc.utils.XmlUtils;
 
 import java.io.InputStream;
 import java.util.List;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-17 14:44
  */
 public class XmlApplicationContext extends BeanFactoryImpl implements ApplitionContext {

@@ -1,19 +1,16 @@
-package pers.zhixilang.framework.ioc.core.impl;
+package pers.zhixilang.lego.ioc.core.impl;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import pers.zhixilang.framework.ioc.bean.BeanDefinition;
-import pers.zhixilang.framework.ioc.core.ApplitionContext;
-import pers.zhixilang.framework.ioc.utils.JsonUtils;
+import pers.zhixilang.lego.ioc.bean.BeanDefinition;
+import pers.zhixilang.lego.ioc.core.ApplitionContext;
+import pers.zhixilang.lego.ioc.utils.JsonUtils;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.List;
 
 /**
  * 容器 - 管理BeanFactory
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:01
  */
 public class JsonApplicationContext extends BeanFactoryImpl implements ApplitionContext {

@@ -1,7 +1,7 @@
-package pers.zhixilang.framework.ioc.core;
+package pers.zhixilang.lego.ioc.core;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:00
  */
 public interface BeanFactory {

@@ -1,12 +1,12 @@
-package pers.zhixilang.framework.ioc.core.impl;
+package pers.zhixilang.lego.ioc.core.impl;
 
-import pers.zhixilang.framework.ioc.bean.BeanDefinition;
-import pers.zhixilang.framework.ioc.bean.ConstructorArg;
-import pers.zhixilang.framework.ioc.bean.PropertyArg;
-import pers.zhixilang.framework.ioc.core.BeanFactory;
-import pers.zhixilang.framework.ioc.utils.BeanUtils;
-import pers.zhixilang.framework.ioc.utils.ClassUtils;
-import pers.zhixilang.framework.ioc.utils.ReflectionUtils;
+import pers.zhixilang.lego.ioc.bean.BeanDefinition;
+import pers.zhixilang.lego.ioc.bean.ConstructorArg;
+import pers.zhixilang.lego.ioc.bean.PropertyArg;
+import pers.zhixilang.lego.ioc.core.BeanFactory;
+import pers.zhixilang.lego.ioc.utils.BeanUtils;
+import pers.zhixilang.lego.ioc.utils.ClassUtils;
+import pers.zhixilang.lego.ioc.utils.ReflectionUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.Constructor;
@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:00
  */
 public class BeanFactoryImpl implements BeanFactory {

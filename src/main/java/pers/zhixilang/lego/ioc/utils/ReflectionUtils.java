@@ -1,10 +1,10 @@
-package pers.zhixilang.framework.ioc.utils;
+package pers.zhixilang.lego.ioc.utils;
 
 import java.lang.reflect.Field;
 
 /**
  * 完成对象的依赖注入
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:02
  */
 public class ReflectionUtils {

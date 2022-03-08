@@ -1,10 +1,10 @@
-package pers.zhixilang.framework.ioc.bean;
+package pers.zhixilang.lego.ioc.bean;
 
 import lombok.Data;
 import lombok.ToString;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:02
  */
 @Data

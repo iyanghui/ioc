@@ -1,10 +1,10 @@
-package pers.zhixilang.framework.ioc.utils;
+package pers.zhixilang.lego.ioc.utils;
 
 /**
  * 类加载工具类
  *
  * 是否破坏了双亲委派原则？？？
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:02
  */
 public class ClassUtils {

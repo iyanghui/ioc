@@ -1,4 +1,4 @@
-package pers.zhixilang.framework.ioc.utils;
+package pers.zhixilang.lego.ioc.utils;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonParser;
@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 
 /**
  * json文件读取工具类
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:02
  */
 public class JsonUtils {

@@ -1,8 +1,8 @@
-package pers.zhixilang.framework.ioc.core;
+package pers.zhixilang.lego.ioc.core;
 
 /**
  * 实例化容器
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-17 14:46
  */
 public interface ApplitionContext {

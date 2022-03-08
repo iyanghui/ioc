@@ -1,11 +1,10 @@
-package pers.zhixilang.framework.ioc;
+package pers.zhixilang.lego.ioc;
 
-import pers.zhixilang.framework.ioc.core.impl.JsonApplicationContext;
-import pers.zhixilang.framework.ioc.core.impl.XmlApplicationContext;
-import pers.zhixilang.framework.ioc.entity.Person;
+import pers.zhixilang.lego.ioc.core.impl.XmlApplicationContext;
+import pers.zhixilang.lego.ioc.service.Person;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:11
  */
 public class Test {

@@ -1,4 +1,4 @@
-package pers.zhixilang.framework.ioc.utils;
+package pers.zhixilang.lego.ioc.utils;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.NoOp;
@@ -7,7 +7,7 @@ import java.lang.reflect.Constructor;
 
 /**
  * 动态代理实现类实例化 - cglib
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:02
  */
 public class BeanUtils {

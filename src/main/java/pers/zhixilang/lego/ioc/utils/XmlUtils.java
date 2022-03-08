@@ -1,7 +1,7 @@
-package pers.zhixilang.framework.ioc.utils;
+package pers.zhixilang.lego.ioc.utils;
 
-import pers.zhixilang.framework.ioc.bean.BeanDefinition;
-import pers.zhixilang.framework.ioc.bean.PropertyArg;
+import pers.zhixilang.lego.ioc.bean.BeanDefinition;
+import pers.zhixilang.lego.ioc.bean.PropertyArg;
 import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
@@ -14,7 +14,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-17 14:09
  */
 public class XmlUtils {

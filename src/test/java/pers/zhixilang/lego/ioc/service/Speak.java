@@ -1,7 +1,7 @@
-package pers.zhixilang.framework.ioc.entity;
+package pers.zhixilang.lego.ioc.service;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:12
  */
 public class Speak {

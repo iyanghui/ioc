@@ -1,11 +1,11 @@
-package pers.zhixilang.framework.ioc.core.impl;
+package pers.zhixilang.lego.ioc.core.impl;
 
-import pers.zhixilang.framework.ioc.core.ApplitionContext;
+import pers.zhixilang.lego.ioc.core.ApplitionContext;
 
 /**
  * isAnnotationPresent(Insert.class)检查注解
  * getAnnotation(Insert.class).value()取得注解内容
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-17 16:47
  */
 public class AnnotationApplicationContext implements ApplitionContext {

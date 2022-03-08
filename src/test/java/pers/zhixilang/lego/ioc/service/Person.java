@@ -1,7 +1,10 @@
-package pers.zhixilang.framework.ioc.entity;
+package pers.zhixilang.lego.ioc.service;
+
+import pers.zhixilang.lego.ioc.service.Eat;
+import pers.zhixilang.lego.ioc.service.Speak;
 
 /**
- * @author yhui
+ * @author zhixilang
  * @date 2018-10-16 11:11
  */
 public class Person {
